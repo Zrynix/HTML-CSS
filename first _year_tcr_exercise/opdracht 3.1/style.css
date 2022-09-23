@@ -11,7 +11,9 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    background-color: black;
+  
+  }
 
 nav {
   display: flex;
@@ -46,6 +48,32 @@ li{
 }
 
 p{
-  font-size: large; 
+  font-size: large;
+  color: white;
 }
+.city{
+  color: rgb(255, 255, 255);
+}
+body{
+  font-family: "goldman" ;
+    background-image: url("img/hacker.png");
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: 400px;
+   background-attachment: fixed;
+}
+footer {
+  font-family: "goldman" ;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #00a8c7;
+  color: white;
+  text-align: center;
+  height: 4%;
+}
+
+
+
 
